@@ -1,9 +1,12 @@
 import React from 'react';
 import 'element-theme-default';
 import { Carousel } from 'element-react';
-// import image01 from 'images/project/project-image01.png';
-// import img2 from './images/project/project-image02.png';
-// import img1 from "./../../project-image01.png";
+import image01 from '../../assets/project/project-image01.png';
+import image02 from '../../assets/project/project-image02.png';
+import image03 from '../../assets/project/project-image03.png';
+import image04 from '../../assets/project/project-image04.png';
+import image05 from '../../assets/project/project-image05.png';
+
 export default function Project() {
   return (
     // <section className='project py-5' id='project_section'>
@@ -71,21 +74,17 @@ export default function Project() {
     // </section>
 
   <div className="demo-1 small">
-    {/* <img src={img1} alt=""/> */}
-      <div className="block">
-        <span className="demonstration">Switch when indicator is hovered (default)</span>
-        <Carousel height="150px">
+        <Carousel interval="4000" height="400px" type="card">
           {
-            [1,2,3,4,5].map((item, index) => {
+            [image01,image02,image03,image04,image05].map((item, index) => {
               return (
                 <Carousel.Item key={index}>
-                  <h3>{item}</h3>
+                  <img src={item} alt="SLider_Img" style={{"width":"100%"}}/>
                 </Carousel.Item>
               )
             })
           }
         </Carousel>
-      </div>
     </div>  
   );
 }

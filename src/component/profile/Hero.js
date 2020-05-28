@@ -42,7 +42,7 @@ export default function HeroSection() {
 
                 <div className="col-lg-5 col-md-12 col-12">
                     <div className="about-image svg">
-                        <img src="images/undraw/undraw_software_engineer_lvl5.svg" className="img-fluid" alt="svg background" />
+                        <img src="images/undraw/hero-bg.svg" className="img-fluid" alt="svg background" />
                     </div>
                 </div>
 
