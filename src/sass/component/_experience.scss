@@ -1,0 +1,51 @@
+
+// TIMELINE
+.timeline-wrapper {
+	position: relative;
+	padding-bottom: 10px;
+	&:last-child {
+		&:before {
+			height: 0;
+		}
+	}
+	&:before {
+		content: "";
+    	background: $button-color;
+    	width: 3px;
+    	height: 100%;
+    	position: absolute;
+    	left: 38px; 
+	}
+}
+
+.timeline-yr {
+	background: $button-color;
+	border-radius: 100%;
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	line-height: 75px;
+	text-align: center;
+	span {
+		color: $text-white;
+    	font-size: $link-font-size;
+    	font-weight: $font-weight-bold;
+    	display: block;
+    	line-height: 75px;
+	}
+}
+
+.timeline-info {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 432px;
+	margin-left: 6em;
+	small {
+		color: $button-color;
+    	font-size: $link-font-size;
+    	font-weight: $font-weight-bold;
+    	display: inline-block;
+    	vertical-align: middle;
+    	margin-left: 15px;
+	}
+}

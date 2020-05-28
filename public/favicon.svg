@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78.6" height="90.8" viewBox="0 0 78.6 90.8">
+  <g id="Group_85" data-name="Group 85" transform="translate(-960 -382)">
+    <g id="Group_84" data-name="Group 84">
+      <g id="Group_83" data-name="Group 83">
+        <g id="Group_82" data-name="Group 82">
+          <g id="Group_81" data-name="Group 81" transform="translate(-233.7 153.6)">
+            <g id="Group_57" data-name="Group 57" transform="translate(1183 223.8)">
+              <path id="Path_12" data-name="Path 12" d="M86.8,71.3,50,92.5,13.2,71.3V28.8L50,7.5,86.8,28.8Z" fill="#172a45"/>
+              <path id="Path_13" data-name="Path 13" d="M50,95.4,10.7,72.7V27.3L50,4.6,89.3,27.3V72.7ZM15.7,69.8,50,89.6,84.3,69.8V30.2L50,10.4,15.7,30.2Z" fill="#172a45"/>
+            </g>
+            <g id="Group_58" data-name="Group 58" transform="translate(1183 223.8)">
+              <path id="Path_14" data-name="Path 14" d="M13.9,28.3,50,50,86.8,28.8" fill="#172a45"/>
+              <path id="Path_15" data-name="Path 15" d="M50,52.9,12.6,30.5l2.6-4.3L50,47.1,85.6,26.6l2.5,4.3Z" fill="#172a45"/>
+            </g>
+            <g id="Group_59" data-name="Group 59" transform="translate(1183 223.8)">
+              <rect id="Rectangle_30" data-name="Rectangle 30" width="5" height="43.3" transform="translate(47.8 49.2)" fill="#172a45"/>
+            </g>
+          </g>
+          <text id="W" transform="translate(980 444)" fill="#11ca9f" font-size="40" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">W</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

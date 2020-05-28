@@ -1,0 +1,71 @@
+
+
+// COLOR MODE
+.color-mode {
+	font-weight: $font-weight-bold;
+	cursor: pointer;
+	.color-mode-icon{
+		font-size: 18px;
+		@include tablet{
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+
+.dark-mode {
+	background: $dark-mode-color;
+	.navbar-light .navbar-nav .nav-link {
+		color: $slate-color-lightest;
+		&:hover {
+			color: $main-color;
+		}
+	}
+	.navbar {
+		&.nav-scroll{
+			background: $navy-color-light;
+		}
+		.navbar-collapse{
+			@include tablet{
+				background:$dark-mode-color;
+			}
+		}
+	}
+	.small-text {
+		color: $green-color;
+	}
+	.about-text{
+		p{
+			color: $slate-color-light;
+		}
+	}
+	.feature-card .uil,
+	.navbar-light .navbar-brand,
+	h1, h2, h3, h4, h5, h6,
+	.color-mode {
+		color: $slate-color-lightest;
+	}
+	.owl-carousel {
+		.owl-nav button.owl-next,
+		.owl-nav button.owl-prev,
+		button.owl-dot {
+			color: $text-white;
+		}
+	}
+
+
+
+
+
+	.custom-btn{
+		&.custom-btn-no-bg{
+			color:$main-color;
+			&:hover{
+				color: $green-color !important;
+			}
+		}
+	}
+	
+}
+

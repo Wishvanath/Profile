@@ -1,0 +1,23 @@
+body {
+	font-family: $font-base;
+	padding-top: 70px;
+}
+
+
+ul {
+	margin: 0;
+	padding: 0;
+	li {
+		list-style: none;
+	}
+}
+
+a {
+	font-size: $link-font-size;
+	font-weight: $font-weight-normal;
+	text-decoration: none !important;
+	@include transition-effect;
+	&:hover {
+		color: $main-color !important;
+	}
+}
