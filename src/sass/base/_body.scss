@@ -21,3 +21,9 @@ a {
 		color: $main-color !important;
 	}
 }
+
+button{
+	&:focus{
+		outline: none;
+	}
+}

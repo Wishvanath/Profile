@@ -67,5 +67,19 @@
 		}
 	}
 	
+	.side-orientation-right,
+	.side-orientation-left{
+		color: $slate-color-lightest !important;
+	}
+
+	.about-header{
+		h3{
+			font-size: 32px;
+			font-weight: 600;
+			color: $slate-color-lightest;
+		}
+	}
+
+
 }
 

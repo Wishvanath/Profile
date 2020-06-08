@@ -11,6 +11,12 @@ export default function NavBar() {
     }
 
     const navScroll =() =>{
+        $('#home').click(function (event) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: ($('#home_section').offset().top)
+            }, 1000)
+        })
         $('#about').click(function (event) {
             event.preventDefault();
             $('html, body').animate({
@@ -57,6 +63,9 @@ export default function NavBar() {
 
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav mx-auto">
+                    <li className="nav-item">
+                        <a href="#home" className="nav-link" id="home"><span data-hover="Home">Home</span></a>
+                    </li>
                     <li className="nav-item">
                         <a href="#about" className="nav-link" id="about"><span data-hover="About">About</span></a>
                     </li>
