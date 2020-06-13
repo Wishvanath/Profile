@@ -7,8 +7,8 @@ export default function Home() {
       <NavBar />
       <HeroSection />
       <AboutSection />
-      <ProjectSection />
       <ExperienceSection />
+      <ProjectSection />
       <ContactSection />
       <FooterSection />
     </Fragment>

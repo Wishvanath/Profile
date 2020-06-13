@@ -7,23 +7,24 @@ export default function SideOrientation() {
         <div className="side-orientation-left">
           <ul className="social-nav">
             <li>
-              <a href="#/github" target="blank" className="social-nav-link"><i class="fab fa-github"></i></a>
+            {/* https://github.com/Wishvanath */}
+              <a href="https://octoprofile.now.sh/user?id=Wishvanath" target="blank" className="social-nav-link"><i class="fab fa-github"></i></a>
             </li>
             <li>
-              <a href="#/github" className="social-nav-link"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.linkedin.com/in/wishvanath-sah-68725b124/" target="blank" className="social-nav-link"><i class="fab fa-linkedin-in"></i></a>
             </li>
             <li>
-              <a href="#/github" className="social-nav-link">
+              <a href="https://codepen.io/Wishvanath" target="blank" className="social-nav-link">
               <i class="fab fa-codepen"></i>
               </a>
             </li>
             <li>
-              <a href="#/github" className="social-nav-link">
-              <i class="fab fa-instagram"></i>
+              <a href="https://www.facebook.com/profile.php?id=100009569210427" target="blank" className="social-nav-link">
+              <i class="fab fa-facebook"></i>
               </a>
             </li>
             <li>
-              <a href="#/github" className="social-nav-link">
+              <a href="https://twitter.com/WishvanathSah" target="blank" className="social-nav-link">
               <i class="fab fa-twitter"></i>
               </a>
             </li>

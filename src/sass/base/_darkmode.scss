@@ -79,6 +79,40 @@
 			color: $slate-color-lightest;
 		}
 	}
+	.project-header{
+		h3{
+			font-size: 32px;
+			font-weight: 600;
+			color: $slate-color-lightest;
+		}
+	}
+
+	.about-content-left{
+		p{
+			color: $slate-color-lightest;
+		}
+	}
+	.skill-section-item{
+		color: $slate-color-lightest !important;
+	}
+	.timeline-info{
+		p{
+			color: $slate-color-lightest;
+		}
+	}
+
+
+	.project-content-section{
+		h4{
+			color: $slate-color-lightest;
+		}
+	}
+
+	.project-tech-spec{
+		li{
+			color: $slate-color-lightest !important;
+		}
+	}
 
 
 }

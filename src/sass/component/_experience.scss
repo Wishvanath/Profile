@@ -10,7 +10,7 @@
 	}
 	&:before {
 		content: "";
-    	background: $button-color;
+    	background: $navy-color-light;
     	width: 3px;
     	height: 100%;
     	position: absolute;
@@ -19,7 +19,7 @@
 }
 
 .timeline-yr {
-	background: $button-color;
+	background: $navy-color-light;
 	border-radius: 100%;
 	position: absolute;
 	width: 75px;
@@ -27,7 +27,7 @@
 	line-height: 75px;
 	text-align: center;
 	span {
-		color: $text-white;
+		color: $slate-color-lightest;
     	font-size: $link-font-size;
     	font-weight: $font-weight-bold;
     	display: block;
@@ -41,11 +41,87 @@
 	max-width: 432px;
 	margin-left: 6em;
 	small {
-		color: $button-color;
+		color: $green-color-dark;
     	font-size: $link-font-size;
     	font-weight: $font-weight-bold;
     	display: inline-block;
     	vertical-align: middle;
-    	margin-left: 15px;
+		margin-left: 15px;
+		a{
+			color: $green-color-dark;
+    	font-size: $link-font-size;
+    	font-weight: $font-weight-bold;
+    	display: inline-block;
+    	vertical-align: middle;
+		margin-left: 15px;
+		}
+	}
+	p{
+		// color: $navy-color;
+		position: relative;
+            margin-bottom: 10px;
+            padding-left: 20px;
+            // font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+            // font-size: 13px;
+            // color: rgb(136, 146, 176);
+            color: $navy-color;
+
+            &::before {
+                content: "▹";
+                position: absolute;
+                left: 0px;
+                color: $green-color-dark;
+                // color: rgb(100, 255, 218);
+                font-size: 14px;
+                line-height: 12px;
+            }
+	}
+}
+
+.experience-header{
+	font-size: 32px;
+	font-weight: 600;
+	color: $navy-color;
+	position: relative;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	width: 100%;
+	white-space: nowrap;
+	margin: 10px 0px 40px;
+	&::after {
+		content: "";
+		display: block;
+		height: 0.5px;
+		width: 150px;
+		background-color: rgb(48, 60, 85);
+		position: relative;
+		// top: -5px;
+		box-sizing: inherit;
+		margin-left: 20px;
+	}
+}
+
+.education-header{
+	font-size: 32px;
+	font-weight: 600;
+	color: $navy-color;
+	position: relative;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	width: 100%;
+	white-space: nowrap;
+	margin: 10px 0px 40px;
+	&::after {
+		content: "";
+		display: block;
+		height: 0.5px;
+		width: 150px;
+		background-color: rgb(48, 60, 85);
+		position: relative;
+		// top: -5px;
+		box-sizing: inherit;
+		margin-left: 20px;
 	}
 }

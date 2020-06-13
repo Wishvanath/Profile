@@ -29,7 +29,7 @@ export default function NavBar() {
                 scrollTop: ($('#project_section').offset().top)
             }, 1000)
         })
-        $('#resume').click(function (event) {
+        $('#experience').click(function (event) {
             event.preventDefault();
             $('html, body').animate({
                 scrollTop: ($('#resume_section').offset().top)
@@ -70,10 +70,10 @@ export default function NavBar() {
                         <a href="#about" className="nav-link" id="about"><span data-hover="About">About</span></a>
                     </li>
                     <li className="nav-item">
-                        <a href="#project" className="nav-link" id="project"><span data-hover="Projects">Projects</span></a>
+                        <a href="#resume" className="nav-link" id="experience"><span data-hover="Experience">Experience</span></a>
                     </li>
                     <li className="nav-item">
-                        <a href="#resume" className="nav-link" id="resume"><span data-hover="Experience">Experience</span></a>
+                        <a href="#project" className="nav-link" id="project"><span data-hover="Projects">Projects</span></a>
                     </li>
                     <li className="nav-item">
                         <a href="#contact" className="nav-link" id="contact"><span data-hover="Contact">Contact</span></a>

@@ -7,85 +7,113 @@ export default function Experience() {
             <div className="row">
 
                 <div className="col-lg-6 col-12">
-                  <h2 className="mb-4">Experiences</h2>
+                  <h3 className="experience-header mb-4">Experiences</h3>
 
                     <div className="timeline">
                         <div className="timeline-wrapper">
                              <div className="timeline-yr">
-                                  <span>2019</span>
+                                  <span>2020</span>
                              </div>
                              <div className="timeline-info">
-                                  <h3><span>Project Manager</span><small>Best Studio</small></h3>
-                                  <p>Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam laoreet libero ac pharetra feugiat. Cras ac fermentum nunc, a faucibus nunc.</p>
+                                  <h4><span>Software Engineer</span><small>Agritrekk Technologies</small></h4>
+                                  <p>
+                                      Write modern, performant, maintainable code for different client and internal projects.
+                                  </p>
+                                  <p>
+                                  Work with a variety of different languages, platforms and frameworks, such as React, Node.js, Express.js and Laravel
+                                  </p>
+                                  <p>
+                                  Communicate and work with experience team members to meet clienct expectations and requirements.
+                                  </p>
                              </div>
                         </div>
 
+                        <div className="timeline-wrapper">
+                            <div className="timeline-yr">
+                                <span>2019</span>
+                            </div>
+                            <div className="timeline-info">
+                                <h4><span>Software Engineer</span><small>SkyMap Global</small></h4>
+                                <p>
+                                Involved in technical discussions, sharing and communication the project related ideas with in team.
+                                </p>
+                                <p>
+                                Requirement Gathering and define Business analysis for the project.
+                                </p>
+                                <p>
+                                Worked closely with designers and software team to develop company's product.
+                                </p>
+                            </div>
+                        </div>
+
+                        
                         <div className="timeline-wrapper">
                             <div className="timeline-yr">
                                 <span>2018</span>
                             </div>
                             <div className="timeline-info">
-                                <h3><span>UX Designer</span><small>Digital Ace</small></h3>
-                                <p>Fusce rutrum augue id orci rhoncus molestie. Nunc auctor dignissim lacus vel iaculis.</p>
-                            </div>
-                        </div>
-
-                        <div className="timeline-wrapper">
-                            <div className="timeline-yr">
-                                <span>2016</span>
-                            </div>
-                            <div className="timeline-info">
-                                <h3><span>UI Freelancer </span></h3>
-                                <p>Sed fringilla vitae enim sit amet cursus. Sed cursus dictum tortor quis pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                            </div>
-                        </div>
-                        
-                        <div className="timeline-wrapper">
-                            <div className="timeline-yr">
-                                <span>2014</span>
-                            </div>
-                            <div className="timeline-info">
-                                <h3><span>Junior Designer</span><small>Crafted Co.</small></h3>
-                                <p>Cras scelerisque scelerisque condimentum. Nullam at volutpat mi. Nunc auctor ipsum eget magna consequat viverra.</p>
+                                <h4><span>Software Engineer</span><small>SkyMap Global</small></h4>
+                                <p>
+                                Involved in various phases of Software Development of Life Cycle, Requirement gathering, Analysis and Code Development.
+                                </p>
+                                <p>
+                                    Defined Reusable component for front-end and written Backend API in PostgreSql.
+                                </p>
                             </div>
                         </div>
 
                     </div>
                 </div>
 
+
+
+
                 <div className="col-lg-6 col-12">
-                  <h2 className="mb-4 mobile-mt-2">Educations</h2>
+                  <h3 className="mb-4 mobile-mt-2 education-header">Educations</h3>
 
                     <div className="timeline">
                         <div className="timeline-wrapper">
                              <div className="timeline-yr">
-                                  <span>2017</span>
+                                  <span>2018</span>
                              </div>
                              <div className="timeline-info">
-                                  <h3><span>Mobile Web</span><small>Master Design</small></h3>
-                                  <p>Please tell your friends about Tooplate website. That would be very helpful. We need your support.</p>
+                                  <h4><span>Masters in Computer Science</span>
+                                  <small>
+                                      <a href="http://www.pondiuni.edu.in/" target="_blank" rel="noopener noreferrer">Pondicherry Central Univercity</a>
+                                  </small>
+                                  </h4>
+                                  <br/>
                              </div>
                         </div>
 
                         <div className="timeline-wrapper">
                             <div className="timeline-yr">
-                                <span>2015</span>
+                                <span>2014</span>
                             </div>
                             <div className="timeline-info">
-                                <h3><span>User Interfaces</span><small>Creative Agency</small></h3>
-                                <p><a rel="nofollow" href="https://www.facebook.com/tooplate">Tooplate</a> is a great website to download HTML templates without any login or email.</p>
+                                <h4><span>Bechlors in Computer Science</span><small>T.N.B College, Bhagalpur</small></h4>
+                                <br/>
                             </div>
                         </div>
                         
                         <div className="timeline-wrapper">
                             <div className="timeline-yr">
-                                <span>2013</span>
+                                <span>2010</span>
                             </div>
                             <div className="timeline-info">
-                                <h3><span>Artwork Design</span><small>New Art School</small></h3>
-                                <p>You can freely use Tooplate's templates for your business or personal sites. You cannot redistribute this template without a permission.</p>
+                                <h4><span>Senior Secondary Certificat</span><small>Marwari College, Bhagalpur</small></h4>
+                                <br/>
                             </div>
                         </div>
+                        <div className="timeline-wrapper">
+                            <div className="timeline-yr">
+                                <span>2008</span>
+                            </div>
+                            <div className="timeline-info">
+                                <h4><span>Secondary School Certificate</span><small>High School Basantrai</small></h4>
+                            </div>
+                        </div>
+
 
                     </div>
                 </div>

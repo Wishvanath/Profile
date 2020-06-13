@@ -15,8 +15,8 @@ import image09 from '../../assets/project/sahyog.png';
 
 export default function Project() {
   return (
-    <section className='project py-5 container' id='project_section'>
-      <Carousel interval="4000" height="400px" type="card">
+    <section className='project py-5' id='project_section'>
+      {/* <Carousel interval="4000" height="400px" type="card">
         {
           [image01,image02,image03,image04,image05,image06,image07,image08,image09].map((item, index) => {
             return (
@@ -26,7 +26,43 @@ export default function Project() {
             )
           })
         }
-      </Carousel>
+      </Carousel> */}
+
+      <div className="container">
+        <div className="project-header">
+          <h3>Some Things I've Built</h3>
+        </div>
+        <div className="row first-project-row">
+          <div className="col-sm-7 project-image-section">
+            <div className="project-image-wrapper">
+              <img src={image01} alt="Project One"/>
+            </div>
+          </div>
+          <div className="col-sm-5">
+            <div className="project-content-section">
+              <h5>Feature Project</h5>
+              <h4>Agritrekk Website</h4>
+              <div className="project-content-descp-wrapper">
+                <div className="project-content-descp">
+                  <p>
+                  Agritrekk company website and it's product information ,developed in WordPress (CMS), It has own blogging , Event Scheduling, Job Posting, Contact Us and More Pages with SEO.
+                  </p>
+                </div>
+                <ul className="project-tech-spec">
+                  <li>Wordpress</li>
+                  <li>Php</li>
+                  <li>MySql</li>
+                </ul>
+                <div className="external-link">
+                  <a href="https://agritrekktechnologies.com/" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
     </section>
   );
 }

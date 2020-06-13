@@ -62,6 +62,244 @@
 // }
 
 
-.el-carousel__mask{
+.el-carousel__mask {
 	opacity: 0 !important;
+}
+
+
+.project-header {
+	h3 {
+		font-size: 32px;
+		font-weight: 600;
+		color: $navy-color;
+		position: relative;
+		display: flex;
+		-webkit-box-align: center;
+		align-items: center;
+		width: 100%;
+		white-space: nowrap;
+		margin: 10px 0px 40px;
+
+		&::after {
+			content: "";
+			display: block;
+			height: 0.5px;
+			width: 200px;
+			background-color: rgb(48, 60, 85);
+			position: relative;
+			// top: -5px;
+			box-sizing: inherit;
+			margin-left: 20px;
+		}
+	}
+}
+
+// .first-project-row {
+// 	.project-image {
+// 		img {
+// 			width: 100%;
+// 			filter: grayscale(100%) contrast(1);
+// 			transition: all 0.3s ease-in;
+
+// 			&:hover {
+// 				filter: grayscale(0%);
+// 				box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.4);
+// 				transition: all 0.3s ease-in;
+// 				cursor: pointer;
+// 			}
+// 		}
+// 	}
+
+// }
+
+
+// .project-image-wrapper {
+// 	position: relative;
+// 	width: 40%;
+// 	max-width: 300px;
+// 	margin-left: 60px;
+
+// 	a {
+// 		box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+// 		width: 100%;
+// 		position: relative;
+// 		background-color: rgb(100, 255, 218);
+// 		margin-left: -20px;
+// 		transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+// 		border-radius: 3px;
+
+// 		&::before {
+// 			top: 0px;
+// 			left: 0px;
+// 			right: 0px;
+// 			bottom: 0px;
+// 			background-color: rgb(10, 25, 47);
+// 			mix-blend-mode: screen;
+// 			content: "";
+// 			display: block;
+// 			position: absolute;
+// 			width: 100%;
+// 			height: 100%;
+// 			border-radius: 3px;
+// 			transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+// 		}
+
+// 		&::after {
+// 			top: 20px;
+// 			left: 20px;
+// 			z-index: -1;
+// 			border-width: 2px;
+// 			border-style: solid;
+// 			border-color: rgb(100, 255, 218);
+// 			border-image: initial;
+// 			content: "";
+// 			display: block;
+// 			position: absolute;
+// 			width: 100%;
+// 			height: 100%;
+// 			border-radius: 3px;
+// 			transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+// 		}
+
+// 		.project-image-inner {
+// 			mix-blend-mode: multiply;
+// 			filter: grayscale(100%) contrast(1);
+// 			border-radius: 3px;
+// 			transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+
+// 			img {
+// 				position: absolute;
+// 				top: 0px;
+// 				left: 0px;
+// 				width: 100%;
+// 				height: 100%;
+// 				object-fit: cover;
+// 				object-position: center center;
+// 				opacity: 0;
+// 			}
+// 		}
+// 	}
+// }
+
+
+.first-project-row {
+	// margin-left: 15px;
+	// margin-right: 15px;
+}
+
+
+.project-image-section {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.project-image-wrapper {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+
+	img {
+		width: 100%;
+		height: 100%;
+		filter: grayscale(100%) contrast(1);
+		transition: all 0.3s ease-in;
+
+		&:hover {
+			filter: grayscale(0%);
+			box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.4);
+			transition: all 0.3s ease-in;
+			cursor: pointer;
+		}
+
+	}
+
+	&::after {
+		top: 20px;
+		left: 20px;
+		z-index: -1;
+		border-width: 1px;
+		border-style: solid;
+		border-color: $green-color-dark;
+		border-image: initial;
+		content: "";
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
+
+}
+
+
+
+
+.project-content-section {
+	text-align: right;
+	position: relative;
+
+	h5 {
+		font-size: 13px;
+		font-weight: normal;
+		color: $green-color-dark;
+		font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+		margin-top: 10px;
+		padding-top: 0px;
+	}
+
+	h4 {
+		font-size: 28px;
+		color: $navy-color;
+		margin: 0px 0px 20px;
+	}
+
+	.project-content-descp-wrapper {
+		position: absolute;
+		right: 0;
+		width: 130%;
+		z-index: 2;
+
+		.project-content-descp {
+			box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+			position: relative;
+			background-color: $navy-color-light;
+			color: $slate-color-lightest;
+			padding: 30px;
+			// border-radius: 3px;
+
+			p {
+				color: inherit;
+				margin-bottom: 0px;
+			}
+		}
+
+	}
+
+	.project-tech-spec {
+		position: relative;
+		z-index: 2;
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0px;
+		margin: 25px 0px 10px;
+		list-style: none;
+		justify-content: flex-end;
+
+		li {
+			margin-left: 20px;
+			margin-right: 0px;
+			font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+			font-size: 13px;
+			color: $navy-color-light;
+			margin-bottom: 7px;
+			white-space: nowrap;
+		}
+	}
+
+
+
+	.external-link {
+		a {
+			padding: 10px;
+			color: $navy-color-lightest;
+			font-size: 18px;
+		}
+	}
 }
