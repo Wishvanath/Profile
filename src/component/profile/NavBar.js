@@ -49,8 +49,8 @@ export default function NavBar() {
     }, [])
   return (
     <nav className="navbar navbar-expand-sm navbar-light">
-        <div className="container">
-            <a className="navbar-brand" href="index.html">
+        <div className="container-fluid">
+            <a className="navbar-brand" href="/">
                 <img src="images/logo/logo2.png" alt="LOGO" className="navbar-brand-logo"/>
             </a>
 

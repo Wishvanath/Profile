@@ -16,31 +16,23 @@ import image09 from '../../assets/project/sahyog.png';
 export default function Project() {
   return (
     <section className='project py-5' id='project_section'>
-      {/* <Carousel interval="4000" height="400px" type="card">
-        {
-          [image01,image02,image03,image04,image05,image06,image07,image08,image09].map((item, index) => {
-            return (
-              <Carousel.Item key={index}>
-                <img src={item} alt="SLider_Img" style={{"width":"100%"}}/>
-              </Carousel.Item>
-            )
-          })
-        }
-      </Carousel> */}
+      
 
       <div className="container">
         <div className="project-header">
           <h3>Some Things I've Built</h3>
         </div>
+
+
         <div className="row first-project-row">
-          <div className="col-sm-7 project-image-section">
+          <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12 project-image-section">
             <div className="project-image-wrapper">
               <img src={image01} alt="Project One"/>
             </div>
           </div>
-          <div className="col-sm-5">
+          <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
             <div className="project-content-section">
-              <h5>Feature Project</h5>
+              <h5>Featured Project</h5>
               <h4>Agritrekk Website</h4>
               <div className="project-content-descp-wrapper">
                 <div className="project-content-descp">
@@ -61,7 +53,128 @@ export default function Project() {
             </div>
           </div>
         </div>
+
+      {/* Second row section */}
+      <div className="row project-second-row">
+        <div className="col-md-5 col-lg-5 col-sm-12 col-xs-12">
+          <div className="project-content-section">
+            <h5>Featured Project</h5>
+            <h4>Arunachal Covid Monitoring Sys</h4>
+            <div className="project-content-descp-wrapper">
+              <div className="project-content-descp">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus fugiat vero dolorem quos cum, repellat animi. Labore, voluptatem. Voluptatibus a at libero iusto esse maiores eos! Nam blanditiis aliquid dolor.
+                </p>
+              </div>
+              <ul className="project-tech-spec">
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>PostgreSql</li>
+              </ul>
+              <div className="external-link">
+                <a href="https://www.apfightcovid19.org/#/" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-7 col-lg-7 col-sm-12 col-xs-12 project-image-section">
+            <div className="project-image-wrapper">
+              <img src={image02} alt="Project Two"/>
+            </div>
+        </div>
       </div>
+
+
+
+      {/* Third Row section */}
+      <div className="row first-project-row">
+          <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12 project-image-section">
+            <div className="project-image-wrapper">
+              <img src={image03} alt="Project One"/>
+            </div>
+          </div>
+          <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+            <div className="project-content-section">
+              <h5>Featured Project</h5>
+              <h4>Crop Scout</h4>
+              <div className="project-content-descp-wrapper">
+                <div className="project-content-descp">
+                  <p>
+                  User can evaluate crop performance with the help of geospatial technologies using AI and ML. It has Crop Mapping, Acreage Estimation with Chart, Damage Crop Assessment, Crop yield  modeling and production estimation Module.
+                  </p>
+                </div>
+                <ul className="project-tech-spec">
+                  <li>React.js</li>
+                  <li>Node.js</li>
+                  <li>PostgresSql</li>
+                </ul>
+                <div className="external-link">
+                  <a href="https://agritrekktechnologies.com/products/" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+
+        {/* fourth row section */}
+        <div className="row project-second-row">
+        <div className="col-md-5 col-lg-5 col-sm-12 col-xs-12">
+          <div className="project-content-section">
+            <h5>Featured Project</h5>
+            <h4>Farm Vigil</h4>
+            <div className="project-content-descp-wrapper">
+              <div className="project-content-descp">
+                <p>
+                Farm vigil is comprehensive information platform designed to collect details of farmers, plots, crops and its condition, automatic area measurement along with geotag field photographs. It is  associated with web dashboard which provides a synoptic view of all field data that helps in field staff management and monitoring and undertaking survey analytics.
+                </p>
+              </div>
+              <ul className="project-tech-spec">
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>PostgreSql</li>
+              </ul>
+              <div className="external-link">
+                <a href="https://agritrekktechnologies.com/product-farm-vigil/" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-7 col-lg-7 col-sm-12 col-xs-12 project-image-section">
+            <div className="project-image-wrapper">
+              <img src={image08} alt="Project Two"/>
+            </div>
+        </div>
+      </div>
+
+
+
+      <div className="row">
+        <div className="view-more-section">
+          <a href="#/" target="blank" className="btn custom-btn custom-btn-bg custom-btn-link">View More</a>
+        </div>
+      </div>
+
+      {/* project slider show case */}
+      {/* <div className="project-crousel">
+      <Carousel interval="4000" height="400px" type="card">
+        {
+          [image01,image02,image03,image04,image05,image06,image07,image08,image09].map((item, index) => {
+            return (
+              <Carousel.Item key={index}>
+                <img src={item} alt="SLider_Img" style={{"width":"100%"}}/>
+              </Carousel.Item>
+            )
+          })
+        }
+      </Carousel>
+      </div> */}
+
+
+      </div>
+
+
       
     </section>
   );

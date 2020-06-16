@@ -5,12 +5,14 @@ export default function Home() {
     <Fragment>
       <SideOrientation />
       <NavBar />
-      <HeroSection />
-      <AboutSection />
-      <ExperienceSection />
-      <ProjectSection />
-      <ContactSection />
-      <FooterSection />
+     <div className="body-wrapper">
+        <HeroSection />
+        <AboutSection />
+        <ExperienceSection />
+        <ProjectSection />
+        <ContactSection />
+        <FooterSection />
+     </div>
     </Fragment>
   )
 }

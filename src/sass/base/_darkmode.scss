@@ -104,7 +104,7 @@
 
 	.project-content-section{
 		h4{
-			color: $slate-color-lightest;
+			color: $slate-color-lightest !important;
 		}
 	}
 
@@ -114,6 +114,9 @@
 		}
 	}
 
+	.copyright-text{
+		color: $slate-color-lightest;
+	}
 
 }
 

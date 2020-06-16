@@ -17,7 +17,7 @@ export default function HeroSection() {
     <section className="about full-screen d-lg-flex justify-content-center align-items-center" id="home_section">
         <div className="container">
             <div className="row">
-                <div className="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                <div className="col-lg-6 col-md-12 col-12 d-flex align-items-center">
                     <div className="about-text">
                         <small className="small-text">Welcome to <span className="mobile-block">my portfolio!</span></small>
                         <h1 className="animated animated-text">
@@ -40,9 +40,9 @@ export default function HeroSection() {
                     </div>
                 </div>
 
-                <div className="col-lg-5 col-md-12 col-12">
+                <div className="col-lg-6 col-md-12 col-12">
                     <div className="about-image svg">
-                        <img src="images/undraw/hero-bg.svg" className="img-fluid" alt="svg background" />
+                        <img src="images/undraw/hero-back.svg" className="img-fluid" alt="svg background" />
                     </div>
                 </div>
 
