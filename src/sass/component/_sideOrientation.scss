@@ -9,7 +9,12 @@
         right: auto;
         z-index: 10;
         color: $navy-color;
-
+        @include mobile-xs{
+            position: absolute;
+            top: 0;
+            margin-top: 50px;
+            margin-left: -20px;
+        }
         .social-nav {
             display: flex;
             flex-direction: column;
@@ -18,8 +23,14 @@
             padding: 0px;
             margin: 0px;
             list-style: none;
+            @include mobile-xs{
+                flex-direction: row;
+            }
             & li:last-of-type {
                 margin-bottom: 20px;
+                @include mobile-xs{
+                    margin-bottom: 0px;
+                }
             }
 
             &::after {
@@ -59,14 +70,18 @@
         right: 20px;
         z-index: 10;
         color: $navy-color;
-
+        @include mobile-xs{
+            position: absolute;
+            top: 0;
+            margin-top: 50px;
+        }
         .email-section {
             display: flex;
             flex-direction: column;
             -webkit-box-align: center;
             align-items: center;
             position: relative;
-
+            
             a {
                 font-size: 12px;
                 letter-spacing: 0.1em;
@@ -75,6 +90,7 @@
                 margin: 20px auto;
                 padding: 10px;
                 color: inherit;
+                
             }
 
             &::after {
@@ -84,6 +100,9 @@
                 height: 90px;
                 background-color: rgb(168, 178, 209);
                 margin: 0px auto;
+                @include mobile-xs{
+                    display: none;
+                }
             }
         }
     }

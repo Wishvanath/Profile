@@ -62,3 +62,10 @@
 		}
 	}
 }
+
+
+.el-message-box{
+	@include mobile-xs{
+		width: auto !important;
+	}
+}

@@ -15,7 +15,7 @@ import image09 from '../../assets/project/sahyog.png';
 
 export default function Project() {
   return (
-    <section className='project py-5' id='project_section'>
+    <section className='project full-screen py-5 d-lg-flex justify-content-center align-items-center' id='project_section'>
       
 
       <div className="container">
@@ -25,12 +25,12 @@ export default function Project() {
 
 
         <div className="row first-project-row">
-          <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12 project-image-section">
+          <div className="col-lg-7 col-md-7 col-12 project-image-section">
             <div className="project-image-wrapper">
               <img src={image01} alt="Project One"/>
             </div>
           </div>
-          <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+          <div className="col-lg-5 col-md-5 col-12">
             <div className="project-content-section">
               <h5>Featured Project</h5>
               <h4>Agritrekk Website</h4>
@@ -56,7 +56,7 @@ export default function Project() {
 
       {/* Second row section */}
       <div className="row project-second-row">
-        <div className="col-md-5 col-lg-5 col-sm-12 col-xs-12">
+        <div className="col-md-5 col-lg-5 col-12">
           <div className="project-content-section">
             <h5>Featured Project</h5>
             <h4>Arunachal Covid Monitoring Sys</h4>
@@ -77,7 +77,7 @@ export default function Project() {
             </div>
           </div>
         </div>
-        <div className="col-md-7 col-lg-7 col-sm-12 col-xs-12 project-image-section">
+        <div className="col-md-7 col-lg-7 col-12 project-image-section">
             <div className="project-image-wrapper">
               <img src={image02} alt="Project Two"/>
             </div>
@@ -88,12 +88,12 @@ export default function Project() {
 
       {/* Third Row section */}
       <div className="row first-project-row">
-          <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12 project-image-section">
+          <div className="col-lg-7 col-md-7 col-12 project-image-section">
             <div className="project-image-wrapper">
               <img src={image03} alt="Project One"/>
             </div>
           </div>
-          <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+          <div className="col-lg-5 col-md-5 col-12">
             <div className="project-content-section">
               <h5>Featured Project</h5>
               <h4>Crop Scout</h4>
@@ -120,7 +120,7 @@ export default function Project() {
 
         {/* fourth row section */}
         <div className="row project-second-row">
-        <div className="col-md-5 col-lg-5 col-sm-12 col-xs-12">
+        <div className="col-md-5 col-lg-5 col-12">
           <div className="project-content-section">
             <h5>Featured Project</h5>
             <h4>Farm Vigil</h4>
@@ -141,7 +141,7 @@ export default function Project() {
             </div>
           </div>
         </div>
-        <div className="col-md-7 col-lg-7 col-sm-12 col-xs-12 project-image-section">
+        <div className="col-md-7 col-lg-7 col-12 project-image-section">
             <div className="project-image-wrapper">
               <img src={image08} alt="Project Two"/>
             </div>

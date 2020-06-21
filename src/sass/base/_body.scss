@@ -7,6 +7,9 @@ body {
 .body-wrapper{
 	padding-left: 100px;
 	padding-right: 100px;
+	@include mobile-xs{
+		padding: 0px;
+	}
 }
 ul {
 	margin: 0;
