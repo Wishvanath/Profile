@@ -3,7 +3,7 @@ import React from 'react'
 export default function Experience() {
   return (
     <section className="resume full-screen py-5 d-lg-flex justify-content-center align-items-center" id="resume_section">
-        <div className="container">
+        <div className="container in-down">
             <div className="row">
 
                 <div className="col-lg-6 col-12">

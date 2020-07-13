@@ -1,15 +1,15 @@
 import React from 'react';
 import 'element-theme-default';
-import { Carousel } from 'element-react';
+// import { Carousel } from 'element-react';
 import image01 from '../../assets/project/agritrekk-website.png';
 import image02 from '../../assets/project/arunachal-covid.png';
 import image03 from '../../assets/project/crop-scout.png';
-import image04 from '../../assets/project/crop-scout-agrizone.png';
-import image05 from '../../assets/project/escorts-poc.png';
-import image06 from '../../assets/project/escorts-poc-route.png';
-import image07 from '../../assets/project/farm-vigil.png';
+// import image04 from '../../assets/project/crop-scout-agrizone.png';
+// import image05 from '../../assets/project/escorts-poc.png';
+// import image06 from '../../assets/project/escorts-poc-route.png';
+// import image07 from '../../assets/project/farm-vigil.png';
 import image08 from '../../assets/project/farm-vigil-survey.png';
-import image09 from '../../assets/project/sahyog.png';
+// import image09 from '../../assets/project/sahyog.png';
 
 
 
@@ -18,7 +18,7 @@ export default function Project() {
     <section className='project full-screen py-5 d-lg-flex justify-content-center align-items-center' id='project_section'>
       
 
-      <div className="container">
+      <div className="container in-down">
         <div className="project-header">
           <h3>Some Things I've Built</h3>
         </div>
@@ -64,7 +64,7 @@ export default function Project() {
               <div className="project-content-descp">
                 <p>
                   It's Web application for covid-19 patient management and displaying it's information [District -wise] on the web portal.
-                  Sample is colleted by Mobile app and Even Admin is able to update all the information throgh the Portal. We used state-shape file to display District wise information and patient analytics.
+                  Sample is collected by Mobile app and Even Admin is able to update all the information through the Portal. We used state-shape file to display District wise information and patient analytics.
                 </p>
               </div>
               <ul className="project-tech-spec">

@@ -15,7 +15,7 @@ export default function HeroSection() {
   },[])  
   return (
     <section className="about full-screen d-lg-flex justify-content-center align-items-center" id="home_section">
-        <div className="container">
+        <div className="container in-down">
             <div className="row">
                 <div className="col-lg-6 col-md-12 col-12 d-flex align-items-center">
                     <div className="about-text">

@@ -5,7 +5,7 @@ import ProfileImage from '../../assets/profile/dev.png';
 export default function About() {
   return (
       <section className="about-section py-5 d-lg-flex justify-content-center align-items-center" id="about_section">
-          <div className="container">
+          <div className="container in-down">
               <div className="about-header">
                   <h3>About me</h3>
               </div>
@@ -16,10 +16,10 @@ export default function About() {
                       Hello! I'm Wishvanath Sah, a software engineer based in India.
                       </p>
                       <p>
-                      I enjoy creating things that live on the internet,It can be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
+                      I enjoy creating things that live on the internet,It can be websites, applications, or anything in between. My goal is to always build products/application that provide pixel-perfect, performance experiences.
                       </p>
                       <p>
-                      Shortly after post graduating from <a href="http://www.pondiuni.edu.in/" target="_blank" rel="noopener noreferrer">Pondicherry University</a>, I joined the engineering team at <a href="https://skymapglobal.com/" target="_blank" rel="noopener noreferrer">SkyMap Global</a> where I work on a wide variety of interesting and meaningful projects on a daily basis.
+                      Shortly after post graduating from <a href="http://www.pondiuni.edu.in/" target="_blank" rel="noopener noreferrer">Pondicherry University</a>, I joined the Engineering Software-dev team at <a href="https://skymapglobal.com/" target="_blank" rel="noopener noreferrer">SkyMap Global</a> where I work on a wide variety of interesting and meaningful projects with team and techleads.
                       </p>
                       <p>
                       Here are a few technologies I've been working with recently:
@@ -33,7 +33,7 @@ export default function About() {
                             <li className="skill-section-item">PostgreSql</li>
                         </ul>
                         {/* href="/resume/resume.pdf" */}
-                        <a href="/#" target="_blank" className="btn mr-lg-2 mt-5 custom-btn custom-btn-no-bg" rel="nofollow noopener noreferrer"><i className='uil uil-file-alt'></i> Download Resume</a>
+                        <a href="/resume/wish_resume.pdf" target="_blank" className="btn mr-lg-2 mt-5 custom-btn custom-btn-no-bg" rel="nofollow noopener noreferrer"><i className='uil uil-file-alt'></i> Download Resume</a>
 
                       </div>  
 
