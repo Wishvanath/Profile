@@ -59,11 +59,12 @@ export default function Project() {
         <div className="col-md-5 col-lg-5 col-12">
           <div className="project-content-section">
             <h5>Featured Project</h5>
-            <h4>Arunachal Covid Monitoring Sys</h4>
+            <h4>Arunachal Covid Monitoring</h4>
             <div className="project-content-descp-wrapper">
               <div className="project-content-descp">
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus fugiat vero dolorem quos cum, repellat animi. Labore, voluptatem. Voluptatibus a at libero iusto esse maiores eos! Nam blanditiis aliquid dolor.
+                  It's Web application for covid-19 patient management and displaying it's information [District -wise] on the web portal.
+                  Sample is colleted by Mobile app and Even Admin is able to update all the information throgh the Portal. We used state-shape file to display District wise information and patient analytics.
                 </p>
               </div>
               <ul className="project-tech-spec">
