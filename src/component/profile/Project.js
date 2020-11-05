@@ -151,6 +151,40 @@ export default function Project() {
 
 
 
+      {/* fifth row section */}
+      <div className="row first-project-row">
+          <div className="col-lg-7 col-md-7 col-12 project-image-section">
+            <div className="project-image-wrapper">
+              {/* <img src={image03} alt="Project One"/> */}
+            </div>
+          </div>
+          <div className="col-lg-5 col-md-5 col-12">
+            <div className="project-content-section">
+              <h5>Featured Project</h5>
+              <h4>Millet Market</h4>
+              <div className="project-content-descp-wrapper">
+                <div className="project-content-descp">
+                  <p>
+                  Makka / Mellet web application dashboard
+                  </p>
+                </div>
+                <ul className="project-tech-spec">
+                  <li>React.js</li>
+                  <li>Node.js</li>
+                  <li>PostgresSql</li>
+                </ul>
+                <div className="external-link">
+                  {/* <a href="https://agritrekktechnologies.com/products/" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i></a> */}
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+      {/* end of fifth row section */}
+
+
       <div className="row">
         <div className="view-more-section">
           <a href="#/" target="blank" className="btn custom-btn custom-btn-bg custom-btn-link">View More</a>
