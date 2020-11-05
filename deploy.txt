@@ -1,0 +1,12 @@
+#Make changes what ever you need in your project folder 
+
+# submit the code in your master branch in git repository
+-git status
+-git add .
+-git commit - m"deployment commit"
+-git push origin master
+
+# then transfer this branch code again to the heroku branch
+-git branch (you will get result origin and heroku)
+-git push heroku master:master
+
