@@ -10,3 +10,25 @@
 -git branch (you will get result origin and heroku)
 -git push heroku master:master
 
+
+
+############
+Deployment Issue
+###########
+copied the project folder from the backup and tried to push the code in git and heroku again
+so you need to take care of this issue again
+install the git first and do what ever changes you want keep the reminder
+set the globale git credentials user name and email (Wishvanath Sah , anandwishvanath@gmail.com)
+when time on pushing your code git may ask your username and password :(anandwishvanath@gmaila.com, '******')
+
+so now you are able to make changes on the git repo.
+
+
+heroku
+-------
+now you need to push all the code from git repo to heroku repository 
+so again you need to validate the heroku credentails
+then best way to do is install the heroku cli and try to loin from cli
+it will authenticate the cli from your browser, once it done now you are able to
+make changes and push this remote branch to the heroku branch.
+
