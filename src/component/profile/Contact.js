@@ -81,7 +81,7 @@ const btnEmailSend = (e) =>{
 
           <div className="col-lg-6 col-12">
             <div className="contact-form">
-              <h2 className="mb-4">Interested to work gather?</h2>
+              <h2 className="mb-4">Ready to help you.</h2>
 
               <form>
                 <div className="row">

@@ -10,7 +10,7 @@ import image03 from '../../assets/project/crop-scout.png';
 // import image07 from '../../assets/project/farm-vigil.png';
 import image08 from '../../assets/project/farm-vigil-survey.png';
 // import image09 from '../../assets/project/sahyog.png';
-
+import milletImage from '../../assets/project/millet-market.png';
 
 
 export default function Project() {
@@ -155,7 +155,7 @@ export default function Project() {
       <div className="row first-project-row">
           <div className="col-lg-7 col-md-7 col-12 project-image-section">
             <div className="project-image-wrapper">
-              {/* <img src={image03} alt="Project One"/> */}
+              <img src={milletImage} alt="Project One"/>
             </div>
           </div>
           <div className="col-lg-5 col-md-5 col-12">
@@ -165,7 +165,7 @@ export default function Project() {
               <div className="project-content-descp-wrapper">
                 <div className="project-content-descp">
                   <p>
-                  Makka / Mellet web application dashboard
+                  Product analysis web dashboard for the millet buyer and millet producer, Admin can perform the buyer and product analysis and customization, as well millet product inventory added by producers.
                   </p>
                 </div>
                 <ul className="project-tech-spec">

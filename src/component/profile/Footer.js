@@ -6,7 +6,7 @@ export default function FooterSection() {
           <div className="container">
                <div className="row">
                     <div className="col-lg-12 col-12">                                
-                        <p className="copyright-text text-center">Copyright &copy; {date} Wishvanath Anand . All rights reserved</p>
+                        <p className="copyright-text text-center">Copyright &copy; {date} Wishvanath Anand . All rights reserved <span className="last-udated">Last Updated:27/12/2020</span></p>
                     </div>
                </div>
           </div>

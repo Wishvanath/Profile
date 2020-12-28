@@ -15,12 +15,12 @@ export default function Experience() {
                                   <span>2020</span>
                              </div>
                              <div className="timeline-info">
-                                  <h4><span>Software Engineer</span><small>Agritrekk Technologies</small></h4>
+                                  <h4><span>Software Engineer</span><small>AxiomIO</small></h4>
                                   <p>
                                       Write modern, performant, maintainable code for different client and internal projects.
                                   </p>
                                   <p>
-                                  Work with a variety of different languages, platforms and frameworks, such as React, Node.js, Express.js and Laravel
+                                  Work with a variety of different languages, platforms and frameworks, such as React, Node.js, Express.js and Angular
                                   </p>
                                   <p>
                                   Communicate and work with experience team members to meet clienct expectations and requirements.
