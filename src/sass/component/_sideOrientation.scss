@@ -1,0 +1,110 @@
+.side-orientation {
+    position: relative;
+
+    .side-orientation-left {
+        width: 40px;
+        position: fixed;
+        bottom: 0px;
+        left: 30px;
+        right: auto;
+        z-index: 10;
+        color: $navy-color;
+        @include mobile-xs{
+            position: absolute;
+            top: 0;
+            margin-top: 50px;
+            margin-left: -20px;
+        }
+        .social-nav {
+            display: flex;
+            flex-direction: column;
+            -webkit-box-align: center;
+            align-items: center;
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            @include mobile-xs{
+                flex-direction: row;
+            }
+            & li:last-of-type {
+                margin-bottom: 20px;
+                @include mobile-xs{
+                    margin-bottom: 0px;
+                }
+            }
+
+            &::after {
+                content: "";
+                display: block;
+                width: 1px;
+                height: 90px;
+                background-color: rgb(168, 178, 209);
+                margin: 0px auto;
+            }
+
+            .social-nav-link {
+                padding: 10px;
+            }
+
+            a {
+                display: inline-block;
+                text-decoration-skip-ink: auto;
+                color: inherit;
+                position: relative;
+                cursor: pointer;
+                text-decoration: none;
+
+                i{
+                font-size: 20px;
+
+                }
+            }
+        }
+    }
+
+    .side-orientation-right {
+        width: 40px;
+        position: fixed;
+        bottom: 0px;
+        left: auto;
+        right: 20px;
+        z-index: 10;
+        color: $navy-color;
+        @include mobile-xs{
+            position: absolute;
+            top: 0;
+            margin-top: 50px;
+        }
+        .email-section {
+            display: flex;
+            flex-direction: column;
+            -webkit-box-align: center;
+            align-items: center;
+            position: relative;
+            
+            a {
+                font-size: 12px;
+                letter-spacing: 0.1em;
+                -webkit-writing-mode: vertical-rl;
+                writing-mode: vertical-rl;
+                margin: 20px auto;
+                padding: 10px;
+                color: inherit;
+                
+            }
+
+            &::after {
+                content: "";
+                display: block;
+                width: 1px;
+                height: 90px;
+                background-color: rgb(168, 178, 209);
+                margin: 0px auto;
+                @include mobile-xs{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+

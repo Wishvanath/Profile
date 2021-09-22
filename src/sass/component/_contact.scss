@@ -1,0 +1,71 @@
+
+// GOOGLE MAP
+.google-map {
+	iframe {
+		width: 100%;
+	}
+}
+
+
+// CONTACT FORM
+.contact-form {
+	position: relative;
+	.form-control {
+		background: transparent;
+		border-radius: 2px;
+		outline: none;
+		box-shadow: none;
+		font-weight: $font-weight-bold;
+		margin: 16px 0;
+		&:not(textarea) {
+			height: 48px;
+		}
+		&:hover,
+		&:focus {
+			border-color: $main-color;
+		}
+	}
+	.submit-btn {
+		background: $main-color;
+		border-radius: 50px;
+		color: $text-white;
+		font-weight: $font-weight-bold;
+		border: 0;
+		cursor: pointer;
+		@include transition-effect;
+		&:hover {
+			background: $button-color;
+		}
+	}
+}
+
+.contact-info {
+	background: $button-color;
+	border-radius: 0 0 3px 3px;
+	position: relative;
+	bottom: 8px;
+	p, a {
+		color: #f7f3f3;
+	}
+}
+
+
+// SOCIAL LINKS
+.social-links {
+	.uil {
+		color: #f7f3f3;
+		font-size: 20px;
+		display: block;
+		margin: 5px 0;
+		&:hover {
+			color: $main-color;
+		}
+	}
+}
+
+
+.el-message-box{
+	@include mobile-xs{
+		width: auto !important;
+	}
+}

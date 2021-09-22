@@ -1,0 +1,32 @@
+p {
+	font-size: $body-font-size;
+	font-weight: $font-weight-normal;
+	line-height: 1.5;
+	color: $body-font-color;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: $font-weight-bold;
+	letter-spacing: -1px;
+}
+
+h1 {
+	color: $h1-font-color;
+	font-size: $h1-font-size;
+	margin: 24px 0;
+}
+
+h2 {
+	color: $h2-font-color;
+	font-size: $h2-font-size;
+	font-weight: $font-weight-bold;
+}
+
+h3 {
+	color: $h3-font-color;
+}
+
+h3,
+b, strong {
+	font-weight: $font-weight-bold;
+}

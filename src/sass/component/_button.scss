@@ -1,0 +1,25 @@
+// CUSTOM BUTTON
+.custom-btn {
+	color: $body-font-color;
+	font-weight: $font-weight-bold;
+    padding: 13px 29px;
+    font-size: $small-font-size;
+    line-height: normal;
+    overflow: hidden;
+    @include transition-effect;
+    &:hover {
+    	color: $main-color;
+    }
+    &.custom-btn-bg {
+    	background: $navy-color-light;
+		color: $text-white;
+		&:hover {
+	    	background: $main-color;
+	    	color: $text-white !important;
+	    }
+    }
+    &.custom-btn-no-bg{
+        border: 1px solid $main-color;
+        color: $navy-color;
+    }
+}

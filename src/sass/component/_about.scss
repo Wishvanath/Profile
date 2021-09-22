@@ -1,0 +1,100 @@
+.about-header {
+    h3 {
+        font-size: 32px;
+        font-weight: 600;
+        color: $navy-color;
+        position: relative;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        width: 100%;
+        white-space: nowrap;
+        margin: 10px 0px 40px;
+
+
+        // &::before {
+        //     counter-increment: section 1;
+        //     content: "0"counter(section) ".";
+        //     margin-right: 10px;
+        //     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+        //     font-weight: normal;
+        //     color: rgb(100, 255, 218);
+        //     font-size: 20px;
+        //     position: relative;
+        //     bottom: 4px;
+        // }
+
+        &::after {
+            content: "";
+            display: block;
+            height: 1px;
+            width: 200px;
+            background-color: rgb(48, 60, 85);
+            position: relative;
+            // top: -5px;
+            box-sizing: inherit;
+            margin-left: 20px;
+        }
+    }
+}
+
+.about-content-left {
+    p {
+        font-size: inherit;
+        color: $navy-color;
+        margin: 0px 0px 15px;
+
+        a {
+            display: inline-block;
+            text-decoration-skip-ink: auto;
+            position: relative;
+            cursor: pointer;
+            color: $green-color-dark;
+            text-decoration: none;
+            transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+            &:hover{
+                color: $green-color !important;
+                transition: all 0.3s ease;
+            }
+        }
+    }
+
+    .skill-section {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(140px, 200px));
+        overflow: hidden;
+        padding: 0px;
+        margin: 20px 0px 0px;
+        list-style: none;
+
+        .skill-section-item {
+            position: relative;
+            margin-bottom: 10px;
+            padding-left: 20px;
+            font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+            font-size: 13px;
+            // color: rgb(136, 146, 176);
+            color: $navy-color;
+
+            &::before {
+                content: "▹";
+                position: absolute;
+                left: 0px;
+                color: $green-color-dark;
+                // color: rgb(100, 255, 218);
+                font-size: 14px;
+                line-height: 12px;
+            }
+        }
+    }
+}
+
+
+.about-content-right{
+    text-align: center;
+    .profile-image{
+    width:100%;
+    margin-top: 50px;
+   
+    }
+}
