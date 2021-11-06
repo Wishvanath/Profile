@@ -34,7 +34,7 @@ export default function About() {
                             <li className="skill-section-item">PostgreSql</li>
                         </ul>
                         {/* href="/resume/resume.pdf" */}
-                        <a href="/resume/wish_resume_sep.pdf" target="_blank" className="btn mr-lg-2 mt-5 custom-btn custom-btn-no-bg" rel="nofollow noopener noreferrer"><i className='uil uil-file-alt'></i> Download Resume</a>
+                        <a href="/resume/Wishvanath_Resume_Nov.pdf" target="_blank" className="btn mr-lg-2 mt-5 custom-btn custom-btn-no-bg" rel="nofollow noopener noreferrer"><i className='uil uil-file-alt'></i> Download Resume</a>
 
                       </div>  
 

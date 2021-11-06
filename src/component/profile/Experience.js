@@ -12,7 +12,7 @@ export default function Experience() {
                     <div className="timeline">
                         <div className="timeline-wrapper">
                              <div className="timeline-yr">
-                                  <span>2020</span>
+                                  <span>2021</span>
                              </div>
                              <div className="timeline-info">
                                   <h4><span>Software Engineer</span><small>AxiomIO</small></h4>
